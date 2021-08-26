@@ -51,6 +51,7 @@ namespace WeatherApp.ViewModel
                 {
                     OnPropertyChanged("SelectedCity");
                     GetCurrentConditions();
+                    Cities.Clear();
                 }
 
             }
